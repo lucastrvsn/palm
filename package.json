@@ -1,0 +1,42 @@
+{
+  "name": "palm",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Lucas Trevisan",
+    "email": "lucastrvsn@gmail.com",
+    "url": "https://github.com/lucastrvsn"
+  },
+  "homepage": "https://github.com/lucastrvsn/palm",
+  "bugs": {
+    "url": "https://github.com/lucastrvsn/palm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucastrvsn/palm.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@mdx-js/loader": "^1.5.7",
+    "@types/node": "^13.9.0",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "remark-emoji": "^2.0.2",
+    "remark-images": "^1.0.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
